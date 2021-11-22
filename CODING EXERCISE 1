@@ -17,7 +17,7 @@ class Exercise1 {
 		do {
 			System.out.println("j = " + j);
 			j = j + 1;  
-		}while (j < 5);
+		} while (j < 5);
 			
 		for (k = 1; k < 5; k = k + 1) {
 			System.out.println("k = " + k);
