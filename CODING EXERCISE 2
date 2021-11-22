@@ -1,0 +1,27 @@
+package looping;
+
+class Exercise2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Decrement
+		int k = 20;
+		int m = 20;
+		int n;
+		
+		while (k > 10) {
+			System.out.println("k = " + k);
+			k--; 
+	    }
+		
+		do {
+			System.out.println("m = " + m);
+			m--;  
+		} while (m > 10);
+		
+		for (n = 20; n > 10; n--) {
+			System.out.println("n = " + n);
+		}
+	}
+
+}
