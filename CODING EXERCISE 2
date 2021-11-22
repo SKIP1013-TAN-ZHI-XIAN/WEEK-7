@@ -12,7 +12,7 @@ class Exercise2 {
 		while (k > 10) {
 			System.out.println("k = " + k);
 			k--; 
-	    }
+	        }
 		
 		do {
 			System.out.println("m = " + m);
