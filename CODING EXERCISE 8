@@ -1,0 +1,25 @@
+package looping;
+
+import java.util.Scanner;
+
+class Exercise8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		
+		String password1;
+		String password2;
+		char ch;
+		
+		System.out.println("Create Your Password");
+		System.out.println("Please enter your password with 8 digits with combination of letters and numbers : ");
+		password1 = input.nextLine();
+		
+		for (int i = 0; i < password1.length(); i++) {
+			ch = password1.charAt(i);
+			System.out.println(i + " " + ch);	
+		}
+	}
+
+}
