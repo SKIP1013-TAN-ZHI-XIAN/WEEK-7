@@ -1,0 +1,40 @@
+package looping;
+
+import java.util.Scanner;
+
+class Exercise6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		// Declare satu pswd
+		// Guna scanner, minta client masukkan pswd
+		// Sistem akan semak pswd
+		// Jika betul, keluar dari loop
+		// Jika pswd salah, masukkan sekali lagi pswd
+		// Kali ketiga, keluar dari loop dan bagi mesej, kad is invalid
+		Scanner input = new Scanner (System.in);
+        
+                int pass = 123456, i = 1;
+        
+                System.out.println("Please enter your password : ");
+                pass = input.nextInt();
+        
+                if(pass == 123456)
+                     System.out.println("Welcome! You're in.");
+        
+                else {
+                     do {
+                     if (pass != 123456) {
+                         System.out.println("Enter your password : ");
+                         pass = input.nextInt();
+                    }
+            
+                    i++;
+                    }
+                    while(i<3); 
+                    System.out.println("Invalid card!!!");
+                }
+
+	}
+
+}
